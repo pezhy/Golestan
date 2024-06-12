@@ -1,0 +1,21 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+ 
+* {
+    scroll-behavior: smooth;
+}
+@font-face {
+    font-family: iransans;
+    src: url("../font/IRANSansWeb-Light.eot");
+    src: url("../font/IRANSansWeb-Light.ttf");
+    src: url("../font/IRANSansWeb-Light.woff");
+    src: url("../font/IRANSansWeb-Light.woff2");
+}
+*{
+    font-family: iransans !important;
+}
+* {
+    text-align: justify;
+}
